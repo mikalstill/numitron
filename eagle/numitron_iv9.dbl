@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.0">
 <designblock>
 <description>Pin placement for an IV-9 numitron.</description>
 <attributes>
@@ -141,46 +141,46 @@
 </class>
 </classes>
 <parts>
-<part name="SEGG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGF" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGE" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGC" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGB" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="SEGA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="VCC" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="DEC" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="CMN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGB" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGC" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGF" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="SEGE" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="SEGG" gate="P" x="88.9" y="2.54" smashed="yes" rot="R180">
+<instance part="VCC" gate="P" x="88.9" y="2.54" smashed="yes" rot="R180">
 <attribute name="VALUE" x="90.043" y="5.842" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SEGF" gate="P" x="88.9" y="7.62" smashed="yes" rot="MR0">
+<instance part="DEC" gate="P" x="88.9" y="7.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="4.318" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SEGE" gate="P" x="88.9" y="12.7" smashed="yes" rot="MR0">
+<instance part="SEGB" gate="P" x="88.9" y="12.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="9.398" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SEGD" gate="P" x="88.9" y="17.78" smashed="yes" rot="MR0">
+<instance part="SEGC" gate="P" x="88.9" y="17.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="14.478" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SEGC" gate="P" x="88.9" y="22.86" smashed="yes" rot="MR0">
+<instance part="SEGA" gate="P" x="88.9" y="22.86" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="19.558" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SEGB" gate="P" x="88.9" y="27.94" smashed="yes" rot="MR0">
+<instance part="SEGF" gate="P" x="88.9" y="27.94" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="24.638" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SEGA" gate="P" x="88.9" y="33.02" smashed="yes" rot="MR0">
+<instance part="SEGG" gate="P" x="88.9" y="33.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="29.718" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="DEC" gate="P" x="88.9" y="-2.54" smashed="yes" rot="MR0">
+<instance part="SEGD" gate="P" x="88.9" y="-2.54" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="90.043" y="-5.842" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="CMN" gate="P" x="88.9" y="38.1" smashed="yes" rot="MR0">
+<instance part="SEGE" gate="P" x="88.9" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="95.123" y="34.8742" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="90.043" y="34.798" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -251,6 +251,7 @@
 </layers>
 <board>
 <plain>
+<text x="49.9" y="49.9" size="0.8" layer="21" font="vector" align="center">IV-9</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
@@ -481,31 +482,31 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SEGG" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="49.89799375" y="46.97465625" smashed="yes" rot="R270">
+<element name="VCC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="49.89799375" y="46.97465625" smashed="yes" rot="R270">
 <attribute name="VALUE" x="50.497990625" y="46.97465625" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="SEGF" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="51.661346875" y="47.54760625" smashed="yes" rot="R306">
+<element name="DEC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="51.661346875" y="47.54760625" smashed="yes" rot="R306">
 <attribute name="VALUE" x="52.146753125" y="47.900278125" size="0.0254" layer="27" rot="R306"/>
 </element>
-<element name="SEGE" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="52.751159375" y="49.047603125" smashed="yes" rot="R342">
+<element name="SEGB" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="52.751159375" y="49.047603125" smashed="yes" rot="R342">
 <attribute name="VALUE" x="52.936565625" y="49.618246875" size="0.0254" layer="27" rot="R342"/>
 </element>
-<element name="SEGD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="52.7511625" y="50.901703125" smashed="yes" rot="R18">
+<element name="SEGC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="52.7511625" y="50.901703125" smashed="yes" rot="R18">
 <attribute name="VALUE" x="52.56575" y="51.472340625" size="0.0254" layer="27" rot="R18"/>
 </element>
-<element name="SEGC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="51.661346875" y="52.401703125" smashed="yes" rot="R144">
+<element name="SEGA" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="51.661346875" y="52.401703125" smashed="yes" rot="R144">
 <attribute name="VALUE" x="51.308671875" y="51.91629375" size="0.0254" layer="27" rot="R144"/>
 </element>
-<element name="SEGB" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="49.897990625" y="52.97465625" smashed="yes" rot="R90">
+<element name="SEGF" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="49.897990625" y="52.97465625" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.29799375" y="52.974653125" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="SEGA" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="48.1346375" y="52.401703125" smashed="yes" rot="R126">
+<element name="SEGG" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="48.1346375" y="52.401703125" smashed="yes" rot="R126">
 <attribute name="VALUE" x="47.649225" y="52.049034375" size="0.0254" layer="27" rot="R126"/>
 </element>
-<element name="DEC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="47.044828125" y="50.90170625" smashed="yes" rot="R162">
+<element name="SEGD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="47.044828125" y="50.90170625" smashed="yes" rot="R162">
 <attribute name="VALUE" x="46.859415625" y="50.331075" size="0.0254" layer="27" rot="R162"/>
 </element>
-<element name="CMN" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="47.044825" y="49.04760625" smashed="yes" rot="R198">
+<element name="SEGE" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" package3d_urn="urn:adsk.eagle:package:30830/1" value="" x="47.044825" y="49.04760625" smashed="yes" rot="R198">
 <attribute name="VALUE" x="47.230225" y="48.476978125" size="0.0254" layer="27" rot="R198"/>
 </element>
 </elements>
